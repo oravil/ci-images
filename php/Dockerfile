@@ -6,7 +6,7 @@
 FROM ubuntu:24.04
 
 ARG PHP_VERSION=8.4
-ARG COMPOSER_VERSION=2.11.2
+ARG COMPOSER_VERSION=2.11.3
 
 LABEL org.opencontainers.image.source="https://github.com/oravil/ci-images" \
       org.opencontainers.image.description="Ubuntu 24.04 + PHP (php-builder) + Composer for Oravil CI jobs" \
